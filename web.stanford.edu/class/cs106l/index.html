@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CS 106L: Standard C++ Programming</title>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css?ver=101">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://web.stanford.edu/class/cs106l/js/bootstrap.min.js"></script>
+    <script src="components/navbar.js?v=1" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <navbar-component></navbar-component>
+    <div class="row">
+        <div class="col-lg-2 sidebar">
+        </div>
+        <div class="col-lg-8">
+
+            <div class="row" style="">
+                <div class="col-lg-12">
+                    <div class="content-top">
+                        <!-- <div style="background-color: #ffffcc; padding: 10px; border: 1px solid #ffcc00; text-align: center; margin-bottom: 20px;">
+                                <strong>🔨Under Construction🔨</strong> - Check back soon!
+                            </div>
+                 -->
+                        <h1 style="font-size:3.25em; font-weight:700; margin:0 0;">CS 106L</h1>
+                        <h3 class="caption">Standard C++ Programming</h3>
+                        <h3 class="subcaption">Stanford University, Autumn 2024</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="content-bottom">
+                        <h2 style="font-size:1.25em; font-weight:700;">About CS106L</h2>
+
+                        <p class="description">&#127805; <b>CS 106L</b> is a companion class to CS106B that
+                            explores the modern C++ language in depth. We'll cover some of the most exciting features of
+                            C++, including modern patterns that give it beauty and power.</p>
+
+                        <p class="description">&#129382; Anyone who is taking or has taken CS 106B/X (or equivalent) is
+                            welcome to enroll. In other words, we welcome anyone that has learned or is learning
+                            programming fundamentals like functions and objects/classes.</p>
+
+                        <p class="description" style="margin:0;">&#129365; CS 106L is a class for <b>1 unit</b>.
+                            Students will complete 7 <b><i>very short</i></b> weekly assignments. These are not meant to
+                            be too challenging but instead function as some hands-on practice with a few of the concepts
+                            we discuss in class the previous week. There are <b><i>no exams or papers</i></b>. All
+                            grades are S/NC. Class will finish in week 8 to give you time for finals.</p>
+                        <p />
+                        <p class="description" style="margin:0;">🏢 CS 106L is built for you! Even if you're not taking
+                            the class,
+                            you're welcome to come to our in-person office hours <b>(starting week 3)</b>. Fabio:
+                            Wednesdays 3-4pm on <a
+                                href="https://stanford.zoom.us/j/94614476144?pwd=5kVMaGJRQyHOX7Ux1XvgdYbQx3e2is.1">Zoom</a>,
+                            Jacob: Fridays 1-2:30pm in Thornton 208.
+                            <!-- If these times don't work for you, we'll also have <b>virtual</b> office hours, times by appointment! -->
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content-bottom">
+                        <h3 style="font-size:1.25em; font-weight:700;">Course Information</h3>
+                        <p class="description" style="margin-bottom:.45em">🐉 Jacob Roberts-Baca</p>
+                        <p class="description" style="margin-bottom:.45em">🏫 Fabio Ibanez</p>
+                        <p class="description" style="margin-bottom:.45em"> 📫 cs106l-aut2425-staff@lists.stanford.edu
+                        </p>
+                        <p class="description" style="margin-bottom:.45em">🕰️ Tuesday, Thursday; 4:30 - 5:50pm;
+                            Thornton 110</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="cal">
+                        <div class="table-responsive ">
+                            <a name="calendar">
+                                <table id="schedule" class="table table-curved">
+                                    <thead>
+                                        <tr>
+                                            <th style="col-lg-2">Week</th>
+                                            <th style="col-lg-5">Tuesday</th>
+                                            <th style="col-lg-5">Thursday</th>
+                                        </tr>
+                                    </thead>
+
+                                    <!-- Week 1 -->
+                                    <tr>
+                                        <td class="calendarWeekCell">1</td>
+                                        <!--
+                                                single day
+                                            -->
+                                        <td class="calendarCell">
+
+                                            <div style="position:relative">
+                                                <div class="inOut">
+                                                    <br>
+                                                    1. Welcome!
+                                                </div>
+
+                                                <div class="classLinks">
+                                                    <!-- slides -->
+                                                    <!-- If there are slides, show them -->
+                                                    <a target="_blank"
+                                                        href="https://office365stanford-my.sharepoint.com/:p:/g/personal/jtrb_stanford_edu/EQanMWmQjhRJgDckFLSSa2oByZgmsmf3HMTGhOVmhOFHUg?e=hqep46">
+                                                        📖 Slides
+                                                    </a>
+
+                                                    <br />
+                                                    <a href="policies.html">
+                                                        📃 Policies
+                                                    </a>
+                                                    <br />
+
+
+                                                </div>
+
+                                                <p class="subtleHeading calendarDate">September 24</p>
+                                            </div>
+                                        </td><!--
+                                            single day
+                                            -->
+                                        <td class="calendarCell">
+
+                                            <div style="position:relative">
+                                                <div class="inOut">
+                                                    <br>
+                                                    2. Types and Structs
+                                                </div>
+
+                                                <div class="classLinks">
+                                                    <!-- slides -->
+                                                    <a target="_blank"
+                                                        href="https://office365stanford-my.sharepoint.com/:p:/g/personal/jtrb_stanford_edu/EUHkZMamhERJuzKCOV887PgBgWvD3s2W0jbj5mMyMlL8pA?e=YNDdVP">
+                                                        📖 Slides
+                                                    </a>
+
+                                                    <br />
+
+                                                    <!-- lecture code -->
+                                                    <a target="_blank" href="https://replit.com/@jtrb/Quadratic">
+                                                        💻 Code
+                                                    </a>
+                            </a>
+                            <br />
+                        </div>
+
+                        <p class="subtleHeading calendarDate">September 26</p>
+                    </div>
+                    </td>
+                    </tr>
+
+
+
+                    <script>
+                        function createRow(
+                            weekNum,
+                            date1,
+                            date2,
+                            subject1,
+                            subject2,
+                            slides1,
+                            slides2,
+                            code1,
+                            code2,
+                            hide = false,
+                            notes1 = '#',
+                            notes2 = '#',
+                        ) {
+                            console.log(weekNum);
+                            console.log(hide);
+                            var row = document.createElement('tr');
+                            var slideLinks = [slides1, slides2];
+                            var slidesHTML = slideLinks.map(s => {
+                                if (s == '#' || hide) return "";
+                                return `
+                                                        <a href="https://web.stanford.edu/class/cs106l/${s}">
+                                                            📖 Slides
+                                                        </a>
+                                                        <br/>
+                                                    `;
+                            });
+
+                            var codeLinks = [code1, code2];
+                            var codeHTML = codeLinks.map(c => {
+                                if (c == '#' || hide) return "";
+                                return `
+                                                        <a href="https://web.stanford.edu/class/cs106l/${c}">
+                                                            💻 Code
+                                                        </a>
+                                                        <br/>
+                                                    `;
+                            });
+
+                            var notesLinks = [notes1, notes2];
+                            var notesHTML = notesLinks.map(s => {
+                                if (s == '#' || hide) return "";
+                                return `
+                                                        <a href="https://web.stanford.edu/class/cs106l/${s}">
+                                                            📝 Notes
+                                                        </a>
+                                                        <br/>
+                                                    `;
+                            });
+
+
+                            row.innerHTML = `<tr>
+                                            <td class="calendarWeekCell">${weekNum}</td>
+                                            <!--
+                                                single lecture
+                                            -->
+                                            <td class="calendarCell">
+                                                <div style="position:relative">
+                                                    <div class="inOut" style="font-family:Jost">
+                                                        <br>
+                                                        ${subject1}
+                                                    </div>
+
+                                                    <div class="classLinks">
+                                                        <!-- slides -->
+                                                        ${slidesHTML[0]}
+
+
+                                                        <!-- lecture code -->
+                                                        
+                                                        ${codeHTML[0]}
+
+                                                        ${notesHTML[0]}
+                                                            
+                                                    </div>
+
+                                                    <p class="subtleHeading calendarDate">${date1}</p>
+
+                                                </div>
+                                            </td><!--
+                                            single day
+                                            -->
+                                            <td class="calendarCell">
+
+                                                <div style="position:relative">
+                                                    <div class="inOut" style="font-family:Jost">
+                                                        <br>
+                                                        ${subject2}
+                                                    </div>
+
+                                                    <div class="classLinks">
+                                                        <!-- slides -->
+                                                        ${slidesHTML[1]}
+
+
+                                                        <!-- lecture code -->
+                                                        
+                                                        ${codeHTML[1]}
+
+                                                        ${notesHTML[1]}
+                                                          
+                                                    </div>
+
+                                                    <p class="subtleHeading calendarDate">${date2}</p>
+                                                </div>
+                                            </td>`
+                            document.getElementById('schedule').getElementsByTagName('tbody')[0].appendChild(row);
+                        }
+
+                        createRow("2", "October 1", "October 3", "3. Initialization and References", "4. Streams", "lectures/03_Initialization&References.pdf", "lectures/04_Streams.pdf", "#", "https://replit.com/@FabioIbanez1/cs106LStreams#main.cpp");
+                        createRow("3", "October 8", "October 10", "5. Containers", "6. Iterators and Pointers", "https://office365stanford-my.sharepoint.com/:p:/g/personal/jtrb_stanford_edu/EXhybTjQvuBMimOXH1MwhOUB8hkY7a2UdNlXOoj8NGbrtQ?e=gypPGF", "https://office365stanford-my.sharepoint.com/:p:/g/personal/jtrb_stanford_edu/EbOKUV784rBHrO3JIhUSAUgBvuIGn5rSU8h3xbq-Q1JFfQ?e=BlZwa7", "#", "#");
+                        createRow("4", "October 15", "October 17", "7. Classes", "8. Template Classes and Const Correctness", "lectures/F2407_Classes.pdf", "https://office365stanford-my.sharepoint.com/:p:/g/personal/jtrb_stanford_edu/EcOTbZkRMsFIgFur6awZ5NQBO2UIRPrsMSgIup-mtIVU4Q?e=12NGjf", "https://github.com/cs106l/cs106l-lecture-code/tree/main/lecture7", "https://github.com/cs106l/cs106l-lecture-code/tree/main/lecture8");
+                        createRow("5", "October 22", "October 24", "9. Template Functions", "10. Functions and Lambdas", "https://office365stanford-my.sharepoint.com/:p:/g/personal/jtrb_stanford_edu/EQQM_codNBVLuTxroA0qZXcBxm2O2r8bMXbg7kDGLkEheg?e=6Pic0h", "https://office365stanford-my.sharepoint.com/:p:/g/personal/jtrb_stanford_edu/EcpVsNUVFGBPg2zYLa4iUbQBVedv_nJXa9ZNuTjs24D3-w?e=m0oQfU", "#", "https://github.com/cs106l/cs106l-lecture-code/tree/main/lecture10", false);
+                        createRow("6", "October 29", "October 31 👻", "10. Operator Overloading", "12. Special Member Functions", "lectures/11_Operator_Overloading_F24.pdf", "lectures/12_Special Member_Functions_F24.pdf", "#", "#");
+                        createRow("7", "November 5", "November 7", "<b>Democracy Day</b> (No Class)", "13. Move Semantics", "#", "https://office365stanford-my.sharepoint.com/:p:/g/personal/jtrb_stanford_edu/EfU4iehJLFdOlt2jwIpUDT0BGiNI0Xh0OZEojIuWQJFg3g?e=raC9f2", "#", "https://github.com/cs106l/cs106l-lecture-code/tree/main/lecture13", false);
+                        createRow("8", "November 12", "November 14", "14. std::optional and Type Safety", "15. RAII, Smart Pointers, and Building C++ Projects", "lectures/14_std__optional_&_Type_Safety.pdf", "lectures/15_CS106L_RAII_&_Smart_Pointers_F24.pdf", "https://github.com/cs106l/cs106l-lecture-code/tree/main/lecture14", "#");
+                        createRow("9", "November 19", "November 21", "Optional: No Class, Extra Office Hours", "Optional: No Class, Extra Office Hours", "#", "#", "#", "#", true)
+                        createRow("10", "December 3", "December 5", "Optional: No Class, Extra Office Hours", "Optional: No Class, Extra Office Hours", "#", "#", "#", "#", true);
+                    </script>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-lg-2">
+                        	<div class="sidebar"></div> 
+                    </div>  -->
+    </div>
+    </div>
+    </div>
+</body>
+<footer-component></footer-component>
+
+</html>
